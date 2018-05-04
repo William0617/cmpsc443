@@ -1,0 +1,10 @@
+su
+/sbin/sysctl -w kernel.randomize_va_space=0
+gcc -z execstack -o call_shellcode call_shellcode.c
+gcc -o stack -z execstack -fno-stack-protector -g stack.c 
+chmod 4755 stack
+exit
+gcc -o exploit exploit.c
+
+
+gcc -o stack -fno-stack-protector -z noexecstack stack.c -ggdb

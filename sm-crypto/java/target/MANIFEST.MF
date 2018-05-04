@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: idsmanager.com
+Owner-Name: BeiJing JZYT
+Implementation-Version: 1.1.0
+Built-By: william.sun
+Specification-Vendor: idsmanager.com
+Implementation-BuildNumber: 1.1.0
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_40
+Implementation-Vendor: idsmanager.com
+
